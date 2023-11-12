@@ -59,7 +59,7 @@ const AuthForm = () => {
     >
       <div
         className="
-          bg-white
+          bg-whites
           px-4
           py-8
           shadow
@@ -68,7 +68,7 @@ const AuthForm = () => {
         "
       >
         <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
-          <Input />
+          <Input id="email" label="Email" register={register} />
         </form>
       </div>
     </div>
